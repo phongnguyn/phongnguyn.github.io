@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #24252A;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+button {
+    background-color: #24252A;
+}
+
+header {
+    display: block;
+}
+header div {
+    position: relative;
+    display: flex;
+    background-image: linear-gradient(rgba(24,24,28,.5),#18181c);
+    height: 250px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px;
+    padding: 30px 30px;
+}
+
+
+header div>picture {
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header div>picture img {
+    width: 100%;
+    object-fit: cover;
+    filter: blur(3px) saturate(1.5);
+    inset: 0;
+}
+
+.nav__links {
+    list-style: none;
+    padding: 32px 40px;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#links {
+    display: inline-block;
+    position: relative;
+    color: #edf0f1;
+}
+
+#links::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#links:hover {
+    color: #0087ca;
+}
+#links:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+main>* {
+
+    font-size: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body>div {
+    margin: auto;
+}
+
