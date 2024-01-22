@@ -1,4 +1,4 @@
-export default projects = [
+const projects = [
     {
         id: 1,
         title: 'vinamilk-inspired_logo_generator',
@@ -15,3 +15,5 @@ export default projects = [
         link: 'https://github.com/phongnguyn/tf_num_reg',
     },
 ]
+
+export default projects;

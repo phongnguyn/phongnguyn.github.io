@@ -1,8 +1,5 @@
-'use client';
-
 import Portfolio from './ui/porfolio';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
-import React from "react";
 
 export default function Home() {
   return (
