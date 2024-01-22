@@ -1,3 +1,5 @@
+'use client';
+
 import Portfolio from './ui/porfolio';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import React from "react";
@@ -11,7 +13,7 @@ export default function Home() {
           web developer / data engineer
         </p>
         <p className="text-1xl text-md leading-8 dark:text-white pt-8 max-w-xl">
-          I am an indie full-stack web developer and try to be good at it. here's a collection of some of my simple projects.
+          I am an indie full-stack web developer and try to be good at it. here&apos;s a collection of some of my simple projects.
         </p>
       </div>
       <Portfolio/>

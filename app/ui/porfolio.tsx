@@ -1,4 +1,6 @@
-import data from "@/app/lib/data";
+'use client';
+
+import projects from "@/app/lib/data";
 import PortfolioItem from "./portfolioItem";
 
 export default function Portfolio() {
@@ -6,8 +8,9 @@ export default function Portfolio() {
         <div className="text-center pt-20">
             <p className="text-4xl font-medium">My Projects</p>
             <div className="flex flex-col md:flex-row p-6">
-                {data.map(project => (
+                {projects.map(project => (
                     <PortfolioItem
+                        key={project.id}
                         title={project.title}
                         link={project.link}
                     />
