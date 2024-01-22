@@ -5,7 +5,7 @@ export default function Portfolio() {
     return(
         <div className="text-center pt-20">
             <p className="text-4xl font-medium">My Projects</p>
-            <div className="flex p-6">
+            <div className="flex flex-col md:flex-row p-6">
                 {data.map(project => (
                     <PortfolioItem
                         title={project.title}

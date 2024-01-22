@@ -6,5 +6,9 @@ export default [
     {
         title: 'dark-instagramdark-instagram',
         link: 'https://github.com/phongnguyn/dark-instagram',
-    }
+    },
+    {
+        title: 'tf_num_reg',
+        link: 'https://github.com/phongnguyn/tf_num_reg',
+    },
 ]

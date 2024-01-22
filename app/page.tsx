@@ -1,4 +1,4 @@
-import Portfolio from "./ui/porfolio";
+import Portfolio from './ui/porfolio';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import React from "react";
 
@@ -16,8 +16,8 @@ export default function Home() {
       </div>
       <Portfolio/>
       <div className="text-5xl flex justify-center gap-16">
-        <a href="https://www.linkedin.com/in/tan-loc-nguyen-115611236/"><AiFillLinkedin/></a>
-        <a href="https://github.com/phongnguyn"><AiFillGithub/></a>
+        <a href="https://www.linkedin.com/in/tan-loc-nguyen-115611236/" target='_blank'><AiFillLinkedin/></a>
+        <a href="https://github.com/phongnguyn" target='_blank'><AiFillGithub/></a>
       </div>
     </main>
   );
