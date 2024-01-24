@@ -18,7 +18,7 @@ export function Experience() {
             <div className="bg-[#165668] p-4 rounded-md">
                 <h3 className="text-xl">2023</h3>
                 <h4 className="text-xl  font-medium">Web Developer</h4>
-                <p>I desgined issue reporting app for Nutifood's warehouse</p>
+                <p>I desgined issue reporting app for Nutifood&apos;s warehouse</p>
             </div>
         </div>
     );
