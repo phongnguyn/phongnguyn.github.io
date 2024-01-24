@@ -1,11 +1,12 @@
 import Portfolio from './ui/porfolio';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
+import Title from './ui/title';
 
 export default function Home() {
   return (
-    <main className="pt-20 pb-6 flex items-center flex-col">
+    <main className="pt-10 pb-6 flex items-center flex-col">
       <div className="text-center">
-        <h1 className="text-5xl font-extrabold dark:text-white">John Nguyen</h1>
+        <Title></Title>
         <p className="text-2xl font-normal dark:text-white pt-16">
           web developer / data engineer
         </p>

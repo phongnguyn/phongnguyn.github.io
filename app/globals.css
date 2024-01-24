@@ -32,3 +32,9 @@ body {
   }
 }
 
+@keyframes anim {
+  100% {
+      stroke-dashoffset: -35%;
+  }
+}
+
