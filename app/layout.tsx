@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="pt-10 pb-6 flex items-center flex-col">
+        <div className="pt-10 pb-6 flex justify-center items-center">
           <NavLinks />
         </div>
         {children}

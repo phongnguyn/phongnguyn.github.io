@@ -1,7 +1,7 @@
 import Portfolio from './ui/porfolio';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 
-export default function RootLayout() {
+export default function Home() {
   return (
     <main className="pt-20 pb-6 flex items-center flex-col">
       <div className="text-center">

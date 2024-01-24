@@ -9,6 +9,14 @@ const links = [
         name: 'dev',
         href: '/',
     },
+    {
+      name: 'about',
+      href: '/about',
+    },
+		{
+			name: 'game',
+			href: '/game',
+		}
 ];
 
 export default function NavLinks() {
