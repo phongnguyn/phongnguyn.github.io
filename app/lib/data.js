@@ -14,6 +14,11 @@ const projects = [
         title: 'tf_num_reg',
         link: 'https://github.com/phongnguyn/tf_num_reg',
     },
+    {
+        id: 4,
+        title: 'minesweeper',
+        link: 'https://github.com/phongnguyn/minesweeper',
+    }
 ]
 
 export default projects;
