@@ -3,6 +3,7 @@
 import clsx from 'clsx';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Game from '../game/page';
 
 const links = [
     {
@@ -13,10 +14,10 @@ const links = [
       name: 'about',
       href: '/about',
     },
-		{
-			name: 'game',
-			href: 'https://phongnguyn.github.io/minesweeper/',
-		}
+    {
+      name: 'game',
+      href: '/game'
+    }
 ];
 
 export default function NavLinks() {
@@ -34,7 +35,6 @@ export default function NavLinks() {
                     'bg-sky-100 text-blue-600': pathname === link.href,
                   },
                 )}
-                passHref={true}
               >
                 <p>{link.name}</p>
               </Link>
