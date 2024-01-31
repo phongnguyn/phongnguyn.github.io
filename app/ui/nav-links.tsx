@@ -15,7 +15,7 @@ const links = [
     },
 		{
 			name: 'game',
-			href: '/game',
+			href: 'https://phongnguyn.github.io/minesweeper/',
 		}
 ];
 
@@ -34,6 +34,7 @@ export default function NavLinks() {
                     'bg-sky-100 text-blue-600': pathname === link.href,
                   },
                 )}
+                passHref={true}
               >
                 <p>{link.name}</p>
               </Link>
