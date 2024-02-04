@@ -17,6 +17,10 @@ const links = [
     {
       name: 'game',
       href: '/game'
+    },
+    {
+      name: 'visuals',
+      href: '/visuals'
     }
 ];
 
