@@ -11,7 +11,7 @@ export default function Home() {
           web developer / data engineer
         </p>
         <p className="text-1xl text-md leading-8 dark:text-white pt-8 max-w-xl">
-          I am an indie full-stack web developer and try to be good at it. here&apos;s a collection of some of my simple projects.
+          My name is Tan Loc, but I go with John. I am an indie full-stack web developer and try to be good at it. here&apos;s a collection of some of my simple projects.
         </p>
       </div>
       <Portfolio/>
