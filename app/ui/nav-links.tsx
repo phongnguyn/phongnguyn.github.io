@@ -6,44 +6,44 @@ import { usePathname } from 'next/navigation';
 import Game from '../game/page';
 
 const links = [
-    {
-        name: 'dev',
-        href: '/',
-    },
-    {
-      name: 'about',
-      href: '/about',
-    },
-    {
-      name: 'game',
-      href: '/game'
-    },
-    {
-      name: 'visuals',
-      href: '/visuals'
-    }
+  {
+    name: 'dev',
+    href: '/',
+  },
+  {
+    name: 'about',
+    href: '/about',
+  },
+  {
+    name: 'game',
+    href: '/game'
+  },
+  {
+    name: 'visuals',
+    href: '/visuals'
+  }
 ];
 
 export default function NavLinks() {
-    const pathname = usePathname();
-    return (
-        <>
-          {links.map((link) => {
-            return (
-              <Link
-                key={link.name}
-                href={link.href}
-                className={clsx(
-                  'flex h-[48px] grow items-center justify-center gap-2 rounded-md p-3 text-sm font-medium md:flex-none md:justify-start md:p-2 md:px-3',
-                  {
-                    'bg-sky-100 text-blue-600': pathname === link.href,
-                  },
-                )}
-              >
-                <p>{link.name}</p>
-              </Link>
-            );
-          })}
-        </>
-      );
+  const pathname = usePathname();
+  return (
+    <>
+      {links.map((link) => {
+        return (
+          <Link
+            key={link.name}
+            href={link.href}
+            className={clsx(
+              'flex h-[48px] grow items-center justify-center gap-2 rounded-md p-3 text-sm font-medium md:flex-none md:justify-start md:p-2 md:px-3',
+              {
+                'bg-sky-100 text-blue-600': pathname === link.href,
+              },
+            )}
+          >
+            <p>{link.name}</p>
+          </Link>
+        );
+      })}
+    </>
+  );
 }
